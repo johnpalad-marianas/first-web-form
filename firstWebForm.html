@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>First Web Form</title>
+</head>
+
+<body>
+    <h1>My First Web Form</h1>\
+    <div>
+        <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="get">
+            <fieldset>
+                <legend>Customer Information</legend>
+                First Name <input required name="First Name" id="Name" type="text" placeholder="Enter your First Name "><br>
+                Last Name <input required name="Last Name" id="Name" type="text" placeholder="Enter your Last Name ">
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                Email <input required name="email" id="Name" type="email" placeholder="Enter your Email Address"><br>
+                Phone <input required name="Phone" id="Name" type="tel" placeholder="Enter your Phone Number">
+            </fieldset>
+            <fieldset>
+                <legend>Birthday</legend>
+                <input required name="email" id="Name" type="date"><br>
+            </fieldset>
+            <fieldset>
+                <input type="Submit" value="Submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
